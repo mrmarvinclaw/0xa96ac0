@@ -48,4 +48,4 @@ The experiment began from a lean case packet. During open-record work, attorneys
 
 One run failed before council voting with `acp attorney did not submit a decision`. It is included because it was one of the ten runs.
 
-The orchestration manifest contains `parse_error` fields caused by a wrapper parsing bug. The result summary in this README and in `docs/runs.md` was computed from the actual `run.json` and `state.json` artifacts, not from those manifest fields.
+The orchestration manifest contains `parse_error` fields caused by a wrapper parsing bug. The result summary in this README and in `runs.md` was computed from the actual `run.json` and `state.json` artifacts, not from those manifest fields.
