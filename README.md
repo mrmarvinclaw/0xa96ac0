@@ -42,16 +42,16 @@ The recurring dissent theory was semantic and evidentiary. Dissenting council me
 
 ## Repository layout
 
-- `etc/case-packet/` — the arbitration input packet.
-- `etc/source-captures/` — official Polymarket and Polygonscan source captures preserved after the open-record work.
-- `runs/` — the ten run directories, `run-01` through `run-10`.
-- `etc/orchestration/` — logs, summaries, and manifests from the run orchestration.
-- `etc/external-pages/` — captured copies of the Trueo market page and AgentCourt homepage.
-- `etc/not-counted-diagnostics/` — diagnostic artifacts that are not part of the ten runs.
-- `docs/runs.md` — run inventory and aggregate results.
-- `docs/runs.json` — machine-readable run inventory.
-- `docs/market-rule.md` — market rule source and extracted rule text.
-- `docs/agentcourt-reference.md` — short AgentCourt reference note.
+- [`etc/case-packet/`](etc/case-packet/) — the arbitration input packet.
+- [`etc/source-captures/`](etc/source-captures/) — official Polymarket and Polygonscan source captures preserved after the open-record work.
+- [`runs/`](runs/) — the ten run directories, `run-01` through `run-10`.
+- [`etc/orchestration/`](etc/orchestration/) — logs, summaries, and manifests from the run orchestration.
+- [`etc/external-pages/`](etc/external-pages/) — captured copies of the Trueo market page and AgentCourt homepage.
+- [`etc/not-counted-diagnostics/`](etc/not-counted-diagnostics/) — diagnostic artifacts that are not part of the ten runs.
+- [`docs/runs.md`](docs/runs.md) — run inventory and aggregate results.
+- [`docs/runs.json`](docs/runs.json) — machine-readable run inventory.
+- [`docs/market-rule.md`](docs/market-rule.md) — market rule source and extracted rule text.
+- [`docs/agentcourt-reference.md`](docs/agentcourt-reference.md) — short AgentCourt reference note.
 
 ## Additional details
 
