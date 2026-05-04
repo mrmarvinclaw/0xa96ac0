@@ -1,8 +1,0 @@
-rc=1
-wrapper_status=failed-after-success
-case_status=ok
-result=demonstrated
-votes_for=3
-votes_against=2
-out=out/polymarket-official-token-launch-condition-gpt5-search-one-20260503-181128
-note=The arbitration completed successfully; the surrounding shell wrapper then failed because it used PIPESTATUS under zsh.

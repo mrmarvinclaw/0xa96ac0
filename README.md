@@ -16,7 +16,7 @@ This repository contains the artifacts for ten AgentCourt arbitration runs:
 
 - the case packet;
 - official-source captures preserved during the work;
-- run outputs, transcripts, council votes, logs, summaries, and orchestration records;
+- run outputs, transcripts, council votes, logs, and summaries;
 - captured copies of the Trueo market page and the AgentCourt homepage.
 
 The experiment used AgentCourt's Agent Arbitration workflow. See <https://agentcourt.ai/>. AgentCourt describes a verifiable adjudication architecture using a Lean procedural engine, attorney-agent teams connected through the Agent Client Protocol, candidate pools of AI jurors, and support for execution in attestable instances and Trusted Execution Environments. In that model, an arbitration can be run with evidence about the code and environment that executed the procedure, rather than relying only on a conventional operator report.
@@ -48,4 +48,3 @@ The experiment began from a lean case packet. During open-record work, attorneys
 
 One run failed before council voting with `acp attorney did not submit a decision`. It is included because it was one of the ten runs.
 
-The orchestration manifest contains `parse_error` fields caused by a wrapper parsing bug. The result summary in this README and in `runs.md` was computed from the actual `run.json` and `state.json` artifacts, not from those manifest fields.
