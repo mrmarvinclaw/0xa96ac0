@@ -2,7 +2,7 @@
 
 Source: https://trueo.com/en/market/0xa96ac028da2431f87fa02fb72aef948f2ef4e737/details
 
-Captured copy: `data/external-pages/trueo-market-0xa96ac0.html`
+Captured copy: `etc/external-pages/trueo-market-0xa96ac0.html`
 
 Extracted rule text from the public page:
 

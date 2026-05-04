@@ -10,16 +10,16 @@ This file indexes the ten arbitration runs in this repository.
 
 | Run | Status | Resolution | Vote split | Path |
 | --- | --- | --- | --- | --- |
-| `run-01` | ok | demonstrated | 3-2 | `data/runs/run-01` |
-| `run-02` | ok | demonstrated | 5-0 | `data/runs/run-02` |
-| `run-03` | ok | demonstrated | 5-0 | `data/runs/run-03` |
-| `run-04` | ok | demonstrated | 5-0 | `data/runs/run-04` |
-| `run-05` | failed_before_council |  | none | `data/runs/run-05` |
-| `run-06` | ok | demonstrated | 4-1 | `data/runs/run-06` |
-| `run-07` | ok | demonstrated | 4-1 | `data/runs/run-07` |
-| `run-08` | ok | demonstrated | 5-0 | `data/runs/run-08` |
-| `run-09` | ok | demonstrated | 3-2 | `data/runs/run-09` |
-| `run-10` | ok | demonstrated | 5-0 | `data/runs/run-10` |
+| `run-01` | ok | demonstrated | 3-2 | `runs/run-01` |
+| `run-02` | ok | demonstrated | 5-0 | `runs/run-02` |
+| `run-03` | ok | demonstrated | 5-0 | `runs/run-03` |
+| `run-04` | ok | demonstrated | 5-0 | `runs/run-04` |
+| `run-05` | failed_before_council |  | none | `runs/run-05` |
+| `run-06` | ok | demonstrated | 4-1 | `runs/run-06` |
+| `run-07` | ok | demonstrated | 4-1 | `runs/run-07` |
+| `run-08` | ok | demonstrated | 5-0 | `runs/run-08` |
+| `run-09` | ok | demonstrated | 3-2 | `runs/run-09` |
+| `run-10` | ok | demonstrated | 5-0 | `runs/run-10` |
 
 ## Failed run
 

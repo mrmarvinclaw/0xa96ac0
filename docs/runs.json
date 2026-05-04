@@ -1,6 +1,6 @@
 [
   {
-    "path": "data/runs/run-01",
+    "path": "runs/run-01",
     "status": "ok",
     "resolution": "demonstrated",
     "run_id": "run-1777849888850174000",
@@ -69,7 +69,7 @@
     "run": "run-01"
   },
   {
-    "path": "data/runs/run-02",
+    "path": "runs/run-02",
     "status": "ok",
     "resolution": "demonstrated",
     "run_id": "run-1777851300234808000",
@@ -138,7 +138,7 @@
     "run": "run-02"
   },
   {
-    "path": "data/runs/run-03",
+    "path": "runs/run-03",
     "status": "ok",
     "resolution": "demonstrated",
     "run_id": "run-1777851967241181000",
@@ -207,7 +207,7 @@
     "run": "run-03"
   },
   {
-    "path": "data/runs/run-04",
+    "path": "runs/run-04",
     "status": "ok",
     "resolution": "demonstrated",
     "run_id": "run-1777852517576650000",
@@ -276,7 +276,7 @@
     "run": "run-04"
   },
   {
-    "path": "data/runs/run-05",
+    "path": "runs/run-05",
     "status": "failed_before_council",
     "resolution": null,
     "vote_split": "none",
@@ -284,7 +284,7 @@
     "run": "run-05"
   },
   {
-    "path": "data/runs/run-06",
+    "path": "runs/run-06",
     "status": "ok",
     "resolution": "demonstrated",
     "run_id": "run-1777853701455981000",
@@ -353,7 +353,7 @@
     "run": "run-06"
   },
   {
-    "path": "data/runs/run-07",
+    "path": "runs/run-07",
     "status": "ok",
     "resolution": "demonstrated",
     "run_id": "run-1777854494336131000",
@@ -422,7 +422,7 @@
     "run": "run-07"
   },
   {
-    "path": "data/runs/run-08",
+    "path": "runs/run-08",
     "status": "ok",
     "resolution": "demonstrated",
     "run_id": "run-1777855146213363000",
@@ -491,7 +491,7 @@
     "run": "run-08"
   },
   {
-    "path": "data/runs/run-09",
+    "path": "runs/run-09",
     "status": "ok",
     "resolution": "demonstrated",
     "run_id": "run-1777855666272764000",
@@ -560,7 +560,7 @@
     "run": "run-09"
   },
   {
-    "path": "data/runs/run-10",
+    "path": "runs/run-10",
     "status": "ok",
     "resolution": "demonstrated",
     "run_id": "run-1777856173517562000",
