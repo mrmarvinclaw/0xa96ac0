@@ -1,0 +1,27 @@
+[
+  {
+    "member_id": "C1",
+    "model": "openrouter://meta-llama/llama-4-scout",
+    "persona_file": "personas/persons/d715074-1.txt"
+  },
+  {
+    "member_id": "C2",
+    "model": "openrouter://amazon/nova-premier-v1",
+    "persona_file": "personas/persons/d715074-9.txt"
+  },
+  {
+    "member_id": "C3",
+    "model": "openrouter://openai/gpt-4",
+    "persona_file": "personas/persons/e50e538-1.txt"
+  },
+  {
+    "member_id": "C4",
+    "model": "openrouter://meta-llama/llama-4-scout",
+    "persona_file": "personas/persons/d715074-9.txt"
+  },
+  {
+    "member_id": "C5",
+    "model": "openrouter://x-ai/grok-3",
+    "persona_file": "personas/persons/d715074-5.txt"
+  }
+]

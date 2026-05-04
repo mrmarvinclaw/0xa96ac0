@@ -1,0 +1,74 @@
+==== RUN 4 START 2026-05-03T19:09:13-05:00 OUT out/polymarket-official-token-launch-condition-gpt5-search-nine-more-r4-20260503-190913 ====
+examples/polymarket-official-token-launch-condition/complaint.md
+xproxy config path=<workspace>/adjudication-dev/common/etc/xproxy.json endpoints=[anthropic gemini openai openrouter xai] max_output_tokens=<nil> upstream_timeout_sec=600 log_stream_events=false log_payload_summary=false
+xproxy started port=18459 log_stream_events=false log_payload_summary=false
+xproxy request req_id=03cc1fc5c66d endpoint=openai model_in=gpt-5 model_out=gpt-5 search_requested=true force_search=true tool_count=10 stream=true
+xproxy response req_id=03cc1fc5c66d status=200 bytes=340184 duration_ms=97808
+llm_csv,2026-05-03 19:10:53.106,openai://gpt-5?tools=search,10463,340184,97808
+xproxy request req_id=4b86ac39c82c endpoint=openai model_in=gpt-5 model_out=gpt-5 search_requested=true force_search=true tool_count=10 stream=true
+xproxy response req_id=4b86ac39c82c status=200 bytes=285924 duration_ms=24928
+llm_csv,2026-05-03 19:11:18.064,openai://gpt-5?tools=search,17248,285924,24928
+xproxy request req_id=bb6daa4e9ab8 endpoint=openai model_in=gpt-5 model_out=gpt-5 search_requested=true force_search=true tool_count=10 stream=true
+xproxy response req_id=bb6daa4e9ab8 status=200 bytes=18006 duration_ms=1212
+llm_csv,2026-05-03 19:11:19.336,openai://gpt-5?tools=search,22607,18006,1212
+xproxy request req_id=1d41f835db92 endpoint=openai model_in=gpt-5 model_out=gpt-5 search_requested=true force_search=true tool_count=10 stream=true
+xproxy response req_id=1d41f835db92 status=200 bytes=291778 duration_ms=43273
+llm_csv,2026-05-03 19:12:04.259,openai://gpt-5?tools=search,15560,291778,43273
+xproxy request req_id=f107315495c1 endpoint=openai model_in=gpt-5 model_out=gpt-5 search_requested=true force_search=true tool_count=10 stream=true
+xproxy response req_id=f107315495c1 status=200 bytes=18003 duration_ms=2187
+llm_csv,2026-05-03 19:12:06.523,openai://gpt-5?tools=search,20904,18003,2187
+xproxy request req_id=198c1604ccae endpoint=openai model_in=gpt-5 model_out=gpt-5 search_requested=true force_search=true tool_count=10 stream=true
+xproxy response req_id=198c1604ccae status=200 bytes=18728 duration_ms=4642
+llm_csv,2026-05-03 19:12:12.581,openai://gpt-5?tools=search,22295,18728,4642
+xproxy request req_id=89434421ef7e endpoint=openai model_in=gpt-5 model_out=gpt-5 search_requested=true force_search=true tool_count=10 stream=true
+xproxy response req_id=89434421ef7e status=200 bytes=17446 duration_ms=2641
+llm_csv,2026-05-03 19:12:15.261,openai://gpt-5?tools=search,22630,17446,2641
+xproxy request req_id=e0fa3b2d83e4 endpoint=openai model_in=gpt-5 model_out=gpt-5 search_requested=true force_search=true tool_count=10 stream=true
+xproxy response req_id=e0fa3b2d83e4 status=200 bytes=18514 duration_ms=1267
+llm_csv,2026-05-03 19:12:16.551,openai://gpt-5?tools=search,23658,18514,1267
+xproxy request req_id=121c81079953 endpoint=openai model_in=gpt-5 model_out=gpt-5 search_requested=true force_search=true tool_count=10 stream=true
+xproxy response req_id=121c81079953 status=200 bytes=19061 duration_ms=1142
+llm_csv,2026-05-03 19:12:17.701,openai://gpt-5?tools=search,25396,19061,1142
+xproxy request req_id=a6759476e06d endpoint=openai model_in=gpt-5 model_out=gpt-5 search_requested=true force_search=true tool_count=10 stream=true
+xproxy response req_id=a6759476e06d status=200 bytes=19045 duration_ms=939
+llm_csv,2026-05-03 19:12:18.656,openai://gpt-5?tools=search,28622,19045,939
+xproxy request req_id=d78b11a12580 endpoint=openai model_in=gpt-5 model_out=gpt-5 search_requested=true force_search=true tool_count=10 stream=true
+xproxy response req_id=d78b11a12580 status=200 bytes=19055 duration_ms=1118
+llm_csv,2026-05-03 19:12:19.790,openai://gpt-5?tools=search,30727,19055,1118
+xproxy request req_id=db15224f899e endpoint=openai model_in=gpt-5 model_out=gpt-5 search_requested=true force_search=true tool_count=10 stream=true
+xproxy response req_id=db15224f899e status=200 bytes=19566 duration_ms=1473
+llm_csv,2026-05-03 19:12:21.277,openai://gpt-5?tools=search,31129,19566,1473
+xproxy request req_id=7aef96fb276a endpoint=openai model_in=gpt-5 model_out=gpt-5 search_requested=true force_search=true tool_count=10 stream=true
+xproxy response req_id=7aef96fb276a status=200 bytes=19315 duration_ms=14711
+llm_csv,2026-05-03 19:12:36.003,openai://gpt-5?tools=search,32479,19315,14711
+xproxy request req_id=076e9cb97af9 endpoint=openai model_in=gpt-5 model_out=gpt-5 search_requested=true force_search=true tool_count=10 stream=true
+xproxy response req_id=076e9cb97af9 status=200 bytes=316628 duration_ms=35685
+llm_csv,2026-05-03 19:13:11.708,openai://gpt-5?tools=search,34172,316628,35685
+xproxy request req_id=0daeb4b8faf6 endpoint=openai model_in=gpt-5 model_out=gpt-5 search_requested=true force_search=true tool_count=10 stream=true
+xproxy response req_id=0daeb4b8faf6 status=200 bytes=18009 duration_ms=921
+llm_csv,2026-05-03 19:13:12.664,openai://gpt-5?tools=search,39345,18009,921
+xproxy request req_id=90316a9ad641 endpoint=openai model_in=gpt-5 model_out=gpt-5 search_requested=true force_search=true tool_count=10 stream=true
+xproxy response req_id=90316a9ad641 status=200 bytes=17510 duration_ms=42217
+llm_csv,2026-05-03 19:13:56.278,openai://gpt-5?tools=search,32231,17510,42217
+xproxy request req_id=57f189c01dbd endpoint=openai model_in=gpt-5 model_out=gpt-5 search_requested=true force_search=true tool_count=10 stream=true
+xproxy response req_id=57f189c01dbd status=200 bytes=19770 duration_ms=2209
+llm_csv,2026-05-03 19:13:58.517,openai://gpt-5?tools=search,33259,19770,2209
+xproxy request req_id=7a2f0c20edd2 endpoint=openai model_in=gpt-5 model_out=gpt-5 search_requested=true force_search=true tool_count=10 stream=true
+xproxy response req_id=7a2f0c20edd2 status=200 bytes=18517 duration_ms=1168
+llm_csv,2026-05-03 19:13:59.692,openai://gpt-5?tools=search,33605,18517,1168
+xproxy request req_id=eeabd9a480a5 endpoint=openai model_in=gpt-5 model_out=gpt-5 search_requested=true force_search=true tool_count=10 stream=true
+xproxy response req_id=eeabd9a480a5 status=200 bytes=19064 duration_ms=991
+llm_csv,2026-05-03 19:14:00.701,openai://gpt-5?tools=search,35343,19064,991
+xproxy request req_id=15b53dd8376d endpoint=openai model_in=gpt-5 model_out=gpt-5 search_requested=true force_search=true tool_count=10 stream=true
+xproxy response req_id=15b53dd8376d status=200 bytes=19046 duration_ms=1060
+llm_csv,2026-05-03 19:14:01.778,openai://gpt-5?tools=search,38569,19046,1060
+xproxy request req_id=ed90be194db0 endpoint=openai model_in=gpt-5 model_out=gpt-5 search_requested=true force_search=true tool_count=10 stream=true
+xproxy response req_id=ed90be194db0 status=200 bytes=19055 duration_ms=1221
+llm_csv,2026-05-03 19:14:03.014,openai://gpt-5?tools=search,40674,19055,1221
+xproxy request req_id=4ab6016cf08d endpoint=openai model_in=gpt-5 model_out=gpt-5 search_requested=true force_search=true tool_count=10 stream=true
+xproxy response req_id=4ab6016cf08d status=200 bytes=19566 duration_ms=1703
+llm_csv,2026-05-03 19:14:04.723,openai://gpt-5?tools=search,41076,19566,1703
+xproxy request req_id=ce2f99a13696 endpoint=openai model_in=gpt-5 model_out=gpt-5 search_requested=true force_search=true tool_count=10 stream=true
+xproxy response req_id=ce2f99a13696 status=200 bytes=10589 duration_ms=56590
+llm_csv,2026-05-03 19:15:01.323,openai://gpt-5?tools=search,42426,10589,56590
+{"status":"error","error":"acp attorney did not submit a decision"}

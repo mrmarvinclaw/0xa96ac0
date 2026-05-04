@@ -1,0 +1,7 @@
+{
+  "council_llm_timeout_seconds": 240,
+  "attorney_acp_timeout_seconds": 900,
+  "max_response_bytes": 131072,
+  "invalid_attempt_limit": 5,
+  "council_max_output_tokens": 1200
+}

@@ -1,0 +1,119 @@
+==== RUN 7 START 2026-05-03T19:39:06-05:00 OUT out/polymarket-official-token-launch-condition-gpt5-search-nine-more-r7-20260503-193906 ====
+examples/polymarket-official-token-launch-condition/complaint.md
+xproxy config path=<workspace>/adjudication-dev/common/etc/xproxy.json endpoints=[anthropic gemini openai openrouter xai] max_output_tokens=<nil> upstream_timeout_sec=600 log_stream_events=false log_payload_summary=false
+xproxy started port=18459 log_stream_events=false log_payload_summary=false
+xproxy request req_id=4f183828264b endpoint=openai model_in=gpt-5 model_out=gpt-5 search_requested=true force_search=true tool_count=10 stream=true
+xproxy response req_id=4f183828264b status=200 bytes=336033 duration_ms=71014
+llm_csv,2026-05-03 19:40:18.825,openai://gpt-5?tools=search,10475,336033,71014
+xproxy request req_id=da83c449eab1 endpoint=openai model_in=gpt-5 model_out=gpt-5 search_requested=true force_search=true tool_count=10 stream=true
+xproxy response req_id=da83c449eab1 status=200 bytes=275885 duration_ms=13959
+llm_csv,2026-05-03 19:40:32.830,openai://gpt-5?tools=search,16986,275885,13959
+xproxy request req_id=90db27bd0152 endpoint=openai model_in=gpt-5 model_out=gpt-5 search_requested=true force_search=true tool_count=10 stream=true
+xproxy response req_id=90db27bd0152 status=200 bytes=18006 duration_ms=789
+llm_csv,2026-05-03 19:40:33.679,openai://gpt-5?tools=search,22019,18006,789
+xproxy request req_id=ee9bd3608b38 endpoint=openai model_in=gpt-5 model_out=gpt-5 search_requested=true force_search=true tool_count=10 stream=true
+xproxy response req_id=ee9bd3608b38 status=200 bytes=308581 duration_ms=38777
+llm_csv,2026-05-03 19:41:14.118,openai://gpt-5?tools=search,15246,308581,38777
+xproxy request req_id=c2f6237379e2 endpoint=openai model_in=gpt-5 model_out=gpt-5 search_requested=true force_search=true tool_count=10 stream=true
+xproxy response req_id=c2f6237379e2 status=200 bytes=251793 duration_ms=10014
+llm_csv,2026-05-03 19:41:24.172,openai://gpt-5?tools=search,21139,251793,10014
+xproxy request req_id=0ddad0081c2d endpoint=openai model_in=gpt-5 model_out=gpt-5 search_requested=true force_search=true tool_count=10 stream=true
+xproxy response req_id=0ddad0081c2d status=200 bytes=18006 duration_ms=1132
+llm_csv,2026-05-03 19:41:25.361,openai://gpt-5?tools=search,25613,18006,1132
+xproxy request req_id=9b825b1a55b0 endpoint=openai model_in=gpt-5 model_out=gpt-5 search_requested=true force_search=true tool_count=10 stream=true
+xproxy response req_id=9b825b1a55b0 status=200 bytes=18728 duration_ms=5449
+llm_csv,2026-05-03 19:41:32.169,openai://gpt-5?tools=search,21111,18728,5449
+xproxy request req_id=c7f13a3db635 endpoint=openai model_in=gpt-5 model_out=gpt-5 search_requested=true force_search=true tool_count=10 stream=true
+xproxy response req_id=c7f13a3db635 status=200 bytes=17446 duration_ms=3445
+llm_csv,2026-05-03 19:41:35.651,openai://gpt-5?tools=search,21446,17446,3445
+xproxy request req_id=6d52a258538e endpoint=openai model_in=gpt-5 model_out=gpt-5 search_requested=true force_search=true tool_count=10 stream=true
+xproxy response req_id=6d52a258538e status=200 bytes=18514 duration_ms=786
+llm_csv,2026-05-03 19:41:36.461,openai://gpt-5?tools=search,22474,18514,786
+xproxy request req_id=6d8224cac7f0 endpoint=openai model_in=gpt-5 model_out=gpt-5 search_requested=true force_search=true tool_count=10 stream=true
+xproxy response req_id=6d8224cac7f0 status=200 bytes=19043 duration_ms=2012
+llm_csv,2026-05-03 19:41:38.496,openai://gpt-5?tools=search,24212,19043,2012
+xproxy request req_id=073a3475b828 endpoint=openai model_in=gpt-5 model_out=gpt-5 search_requested=true force_search=true tool_count=10 stream=true
+xproxy response req_id=073a3475b828 status=200 bytes=19061 duration_ms=980
+llm_csv,2026-05-03 19:41:39.491,openai://gpt-5?tools=search,26317,19061,980
+xproxy request req_id=832a7ca58b6d endpoint=openai model_in=gpt-5 model_out=gpt-5 search_requested=true force_search=true tool_count=10 stream=true
+xproxy response req_id=832a7ca58b6d status=200 bytes=19051 duration_ms=1155
+llm_csv,2026-05-03 19:41:40.665,openai://gpt-5?tools=search,29543,19051,1155
+xproxy request req_id=63f448cf9b23 endpoint=openai model_in=gpt-5 model_out=gpt-5 search_requested=true force_search=true tool_count=10 stream=true
+xproxy response req_id=63f448cf9b23 status=200 bytes=19566 duration_ms=1360
+llm_csv,2026-05-03 19:41:42.041,openai://gpt-5?tools=search,29945,19566,1360
+xproxy request req_id=bf2dcedbd6dc endpoint=openai model_in=gpt-5 model_out=gpt-5 search_requested=true force_search=true tool_count=10 stream=true
+xproxy response req_id=bf2dcedbd6dc status=200 bytes=19316 duration_ms=16215
+llm_csv,2026-05-03 19:41:58.271,openai://gpt-5?tools=search,31295,19316,16215
+xproxy request req_id=87ba72488d68 endpoint=openai model_in=gpt-5 model_out=gpt-5 search_requested=true force_search=true tool_count=10 stream=true
+xproxy response req_id=87ba72488d68 status=200 bytes=364348 duration_ms=33937
+llm_csv,2026-05-03 19:42:32.226,openai://gpt-5?tools=search,32988,364348,33937
+xproxy request req_id=5684834f4547 endpoint=openai model_in=gpt-5 model_out=gpt-5 search_requested=true force_search=true tool_count=10 stream=true
+xproxy response req_id=5684834f4547 status=200 bytes=18009 duration_ms=714
+llm_csv,2026-05-03 19:42:32.992,openai://gpt-5?tools=search,38522,18009,714
+xproxy request req_id=29bfb4a998a0 endpoint=openai model_in=gpt-5 model_out=gpt-5 search_requested=true force_search=true tool_count=10 stream=true
+xproxy response req_id=29bfb4a998a0 status=200 bytes=408929 duration_ms=48528
+llm_csv,2026-05-03 19:43:22.978,openai://gpt-5?tools=search,31411,408929,48528
+xproxy request req_id=6f197b5aa04e endpoint=openai model_in=gpt-5 model_out=gpt-5 search_requested=true force_search=true tool_count=10 stream=true
+xproxy response req_id=6f197b5aa04e status=200 bytes=313036 duration_ms=19610
+llm_csv,2026-05-03 19:43:42.624,openai://gpt-5?tools=search,38955,313036,19610
+xproxy request req_id=69eaa2b27872 endpoint=openai model_in=gpt-5 model_out=gpt-5 search_requested=true force_search=true tool_count=10 stream=true
+xproxy response req_id=69eaa2b27872 status=200 bytes=18009 duration_ms=821
+llm_csv,2026-05-03 19:43:43.507,openai://gpt-5?tools=search,44607,18009,821
+xproxy request req_id=817c1ae59dec endpoint=openai model_in=gpt-5 model_out=gpt-5 search_requested=true force_search=true tool_count=10 stream=true
+xproxy response req_id=817c1ae59dec status=200 bytes=19534 duration_ms=10601
+llm_csv,2026-05-03 19:43:55.529,openai://gpt-5?tools=search,36553,19534,10601
+xproxy request req_id=77e71a2c1fd5 endpoint=openai model_in=gpt-5 model_out=gpt-5 search_requested=true force_search=true tool_count=10 stream=true
+xproxy response req_id=77e71a2c1fd5 status=200 bytes=24803 duration_ms=6037
+llm_csv,2026-05-03 19:44:01.605,openai://gpt-5?tools=search,36918,24803,6037
+xproxy request req_id=ba5d65f9a861 endpoint=openai model_in=gpt-5 model_out=gpt-5 search_requested=true force_search=true tool_count=10 stream=true
+xproxy response req_id=ba5d65f9a861 status=200 bytes=19784 duration_ms=1087
+llm_csv,2026-05-03 19:44:02.725,openai://gpt-5?tools=search,39063,19784,1087
+xproxy request req_id=c36fb83c5977 endpoint=openai model_in=gpt-5 model_out=gpt-5 search_requested=true force_search=true tool_count=10 stream=true
+xproxy response req_id=c36fb83c5977 status=200 bytes=19766 duration_ms=1069
+llm_csv,2026-05-03 19:44:03.812,openai://gpt-5?tools=search,42278,19766,1069
+xproxy request req_id=7fe200f5ca5d endpoint=openai model_in=gpt-5 model_out=gpt-5 search_requested=true force_search=true tool_count=10 stream=true
+xproxy response req_id=7fe200f5ca5d status=200 bytes=19775 duration_ms=1122
+llm_csv,2026-05-03 19:44:04.948,openai://gpt-5?tools=search,44372,19775,1122
+xproxy request req_id=661ad20e05ea endpoint=openai model_in=gpt-5 model_out=gpt-5 search_requested=true force_search=true tool_count=10 stream=true
+xproxy response req_id=661ad20e05ea status=200 bytes=20035 duration_ms=1620
+llm_csv,2026-05-03 19:44:06.587,openai://gpt-5?tools=search,44763,20035,1620
+xproxy request req_id=2799e6c3c927 endpoint=openai model_in=gpt-5 model_out=gpt-5 search_requested=true force_search=true tool_count=10 stream=true
+xproxy response req_id=2799e6c3c927 status=200 bytes=241545 duration_ms=37568
+llm_csv,2026-05-03 19:44:44.174,openai://gpt-5?tools=search,46102,241545,37568
+xproxy request req_id=339a447533d8 endpoint=openai model_in=gpt-5 model_out=gpt-5 search_requested=true force_search=true tool_count=10 stream=true
+xproxy response req_id=339a447533d8 status=200 bytes=18009 duration_ms=1141
+llm_csv,2026-05-03 19:44:45.374,openai://gpt-5?tools=search,50073,18009,1141
+xproxy request req_id=3a58cb53c03e endpoint=openai model_in=gpt-5 model_out=gpt-5 search_requested=true force_search=true tool_count=10 stream=true
+xproxy response req_id=3a58cb53c03e status=200 bytes=243651 duration_ms=21877
+llm_csv,2026-05-03 19:45:08.670,openai://gpt-5?tools=search,38345,243651,21877
+xproxy request req_id=ea1149fa1213 endpoint=openai model_in=gpt-5 model_out=gpt-5 search_requested=true force_search=true tool_count=10 stream=true
+xproxy response req_id=ea1149fa1213 status=200 bytes=18009 duration_ms=581
+llm_csv,2026-05-03 19:45:09.323,openai://gpt-5?tools=search,42678,18009,581
+xproxy request req_id=acd6762d5987 endpoint=openai model_in=gpt-5 model_out=gpt-5 search_requested=true force_search=true tool_count=10 stream=true
+xproxy response req_id=acd6762d5987 status=200 bytes=344258 duration_ms=87580
+llm_csv,2026-05-03 19:46:38.298,openai://gpt-5?tools=search,42379,344258,87580
+xproxy request req_id=baac50e5f784 endpoint=openai model_in=gpt-5 model_out=gpt-5 search_requested=true force_search=true tool_count=10 stream=true
+xproxy response req_id=baac50e5f784 status=200 bytes=18009 duration_ms=1005
+llm_csv,2026-05-03 19:46:39.371,openai://gpt-5?tools=search,48022,18009,1005
+xproxy request req_id=f35c6d014b23 endpoint=openai model_in=gpt-5 model_out=gpt-5 search_requested=true force_search=true tool_count=10 stream=true
+xproxy response req_id=f35c6d014b23 status=200 bytes=280989 duration_ms=22743
+llm_csv,2026-05-03 19:47:03.535,openai://gpt-5?tools=search,47759,280989,22743
+xproxy request req_id=61a101c4a1fa endpoint=openai model_in=gpt-5 model_out=gpt-5 search_requested=true force_search=true tool_count=10 stream=true
+xproxy response req_id=61a101c4a1fa status=200 bytes=18009 duration_ms=1202
+llm_csv,2026-05-03 19:47:04.814,openai://gpt-5?tools=search,52692,18009,1202
+xproxy request req_id=ffaef11ace73 endpoint=openrouter model_in=anthropic/claude-opus-4.6 model_out=anthropic/claude-opus-4.6 search_requested=false force_search=false tool_count=1 stream=false
+xproxy response req_id=ffaef11ace73 status=200 bytes=4105 duration_ms=13611
+llm_csv,2026-05-03 19:47:18.482,openrouter://anthropic/claude-opus-4.6,43209,4105,13611
+xproxy request req_id=9bc60366a5f7 endpoint=openrouter model_in=meta-llama/llama-4-scout model_out=meta-llama/llama-4-scout search_requested=false force_search=false tool_count=1 stream=false
+xproxy response req_id=9bc60366a5f7 status=200 bytes=1719 duration_ms=1351
+llm_csv,2026-05-03 19:47:19.918,openrouter://meta-llama/llama-4-scout,43309,1719,1351
+xproxy request req_id=476a32a7ce05 endpoint=openrouter model_in=anthropic/claude-sonnet-4.6 model_out=anthropic/claude-sonnet-4.6 search_requested=false force_search=false tool_count=1 stream=false
+xproxy response req_id=476a32a7ce05 status=200 bytes=3842 duration_ms=11737
+llm_csv,2026-05-03 19:47:31.737,openrouter://anthropic/claude-sonnet-4.6,42940,3842,11737
+xproxy request req_id=81382e203239 endpoint=openrouter model_in=amazon/nova-premier-v1 model_out=amazon/nova-premier-v1 search_requested=false force_search=false tool_count=1 stream=false
+xproxy response req_id=81382e203239 status=200 bytes=3007 duration_ms=9261
+llm_csv,2026-05-03 19:47:41.082,openrouter://amazon/nova-premier-v1,43165,3007,9261
+xproxy request req_id=5890d520378a endpoint=openrouter model_in=anthropic/claude-opus-4.5 model_out=anthropic/claude-opus-4.5 search_requested=false force_search=false tool_count=1 stream=false
+xproxy response req_id=5890d520378a status=200 bytes=2034 duration_ms=4828
+llm_csv,2026-05-03 19:47:45.994,openrouter://anthropic/claude-opus-4.5,43172,2034,4828
+{"status":"ok","result":"demonstrated","votes_for":5,"votes_against":0,"run_id":"run-1777855146213363000","out_dir":"out/polymarket-official-token-launch-condition-gpt5-search-nine-more-r7-20260503-193906"}

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agent Court</title>
+    <link rel="stylesheet" href="/site.css">
+</head>
+<body>
+    <header class="site-header">
+    <a class="site-header-home" href="/index">
+        <img src="/adc-usd-lady-small.png" alt="Agent District Court seal">
+    </a>
+    <div class="site-header-title">Agent Adjudication</div>
+</header>
+
+    <main>
+        <p><em>Verifiable adjudication procedures</em></p>
+
+<p>The site publishes two adjudication procedures.</p>
+
+<ul>
+<li><p><a href="adc/index">Agent District Court</a>: a civil-litigation system modeled on the Federal Rules of Civil Procedure.  See this <a href="adc/overview.html">overview</a>, <a href="adc/logic.html">procedure execution</a>, <a href="adc/analysis/index.html">analysis</a>, an <a href="adc/examples/ex1/index">example</a>, and the full <a href="adc/index">document index</a>.</p></li>
+
+<li><p><a href="arb/index">Agent Arbitration</a>: a smaller council-based adversarial procedure.  See this <a href="arb/index">overview</a>, <a href="arb/ARAP.html">Agent Rules for Arbitration Procedure</a>, <a href="arb/practice.html">practice manual</a>, <a href="arb/analysis/index.html">Lean diagrams</a>, and some <a href="arb/examples/index">examples</a>.</p></li>
+</ul>
+
+<p>Source code for both procedures is at <a href="https://github.com/agentcourt/adjudication"><code>agentcourt/adjudication</code></a>.</p>
+
+<p>Both procedures share the same technical structure.</p>
+
+<ol>
+<li><p>Uses a core procedural engine implemented in
+<a href="https://lean-lang.org/">Lean</a> with <a href="adc/proofstats.html">many
+theorems</a> about its behavior.</p></li>
+
+<li><p>Uses the <a href="https://agentclientprotocol.com/get-started/introduction">Agent Client
+Protocol</a>
+to connect attorney-agent teams, with extensions for full computer
+use during litigation.</p></li>
+
+<li><p>Uses sampled <a href="adc/juries.html">candidate pools of AI
+jurors</a>.  (ADC attorneys still have access to <em>voir dire</em>
+under <a href="adc/ARCP.html">ARCP</a> <a href="adc/ARCP.html#rule-47-selecting-jurors">Rule
+47</a>.)</p></li>
+
+<li><p>Supports verifiable execution in <a href="https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/nitrotpm-attestation.html">attestable instances</a> and Trusted
+Execution Environments, which also provide confidentiality.</p></li>
+</ol>
+
+<p>We use the system as a simulator for developing agent attorneys and
+judges.</p>
+
+<p>Message us at <a href="https://x.com/agentcourt_ai"><code>@agentcourt_ai</code></a> for more information.</p>
+
+    </main>
+    <footer>
+  <p><em>Source: <a href="index.md"><code>index.md</code></a></em></p>
+  <p>Copyright &copy; 2026 Morphism LLC info@morphism.com</p>
+</footer>
+
+</body>
+</html>

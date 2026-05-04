@@ -1,0 +1,10 @@
+seq	out	rc	json_status	result	run_id	started	ended
+1	out/polymarket-official-token-launch-condition-gpt5-search-nine-more-r1-20260503-183500	0	parse_error	parse_error	parse_error	2026-05-03T18:35:00-05:00	2026-05-03T18:46:07-05:00
+2	out/polymarket-official-token-launch-condition-gpt5-search-nine-more-r2-20260503-184607	0	parse_error	parse_error	parse_error	2026-05-03T18:46:07-05:00	2026-05-03T18:55:17-05:00
+3	out/polymarket-official-token-launch-condition-gpt5-search-nine-more-r3-20260503-185517	0	parse_error	parse_error	parse_error	2026-05-03T18:55:17-05:00	2026-05-03T19:09:13-05:00
+4	out/polymarket-official-token-launch-condition-gpt5-search-nine-more-r4-20260503-190913	1	events_only	none	none	2026-05-03T19:09:13-05:00	2026-05-03T19:15:01-05:00
+5	out/polymarket-official-token-launch-condition-gpt5-search-nine-more-r5-20260503-191501	0	parse_error	parse_error	parse_error	2026-05-03T19:15:01-05:00	2026-05-03T19:28:14-05:00
+6	out/polymarket-official-token-launch-condition-gpt5-search-nine-more-r6-20260503-192814	0	parse_error	parse_error	parse_error	2026-05-03T19:28:14-05:00	2026-05-03T19:39:06-05:00
+7	out/polymarket-official-token-launch-condition-gpt5-search-nine-more-r7-20260503-193906	0	parse_error	parse_error	parse_error	2026-05-03T19:39:06-05:00	2026-05-03T19:47:46-05:00
+8	out/polymarket-official-token-launch-condition-gpt5-search-nine-more-r8-20260503-194746	0	parse_error	parse_error	parse_error	2026-05-03T19:47:46-05:00	2026-05-03T19:56:13-05:00
+9	out/polymarket-official-token-launch-condition-gpt5-search-nine-more-r9-20260503-195613	0	parse_error	parse_error	parse_error	2026-05-03T19:56:13-05:00	2026-05-03T20:04:20-05:00

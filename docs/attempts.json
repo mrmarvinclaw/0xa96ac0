@@ -1,0 +1,631 @@
+[
+  {
+    "attempt": "attempt-01-initial",
+    "path": "data/runs/attempt-01-initial",
+    "status": "ok",
+    "resolution": "demonstrated",
+    "run_id": "run-1777849888850174000",
+    "votes_for": 3,
+    "votes_against": 2,
+    "vote_split": "3-2",
+    "council": [
+      {
+        "member_id": "C1",
+        "model": "openrouter://google/gemini-3.1-flash-lite-preview",
+        "persona": "personas/persons/d715074-0.txt"
+      },
+      {
+        "member_id": "C2",
+        "model": "openrouter://openai/gpt-5.4",
+        "persona": "personas/persons/d715074-7.txt"
+      },
+      {
+        "member_id": "C3",
+        "model": "openrouter://openai/gpt-5.2-chat",
+        "persona": "personas/persons/d715074-2.txt"
+      },
+      {
+        "member_id": "C4",
+        "model": "openrouter://amazon/nova-premier-v1",
+        "persona": "personas/persons/e50e538-0.txt"
+      },
+      {
+        "member_id": "C5",
+        "model": "openrouter://google/gemini-2.5-flash",
+        "persona": "personas/persons/e50e538-1.txt"
+      }
+    ],
+    "votes": [
+      {
+        "member_id": "C1",
+        "rationale": "The plaintiff has provided corroborated evidence through official Polymarket documentation, such as the 'Contracts' page and the changelog, confirming that pUSD was launched and publicly communicated as an ERC-20 collateral token before the January 1, 2027 deadline. These materials sufficiently demonstrate that the token meets the criteria of a fungible, officially released asset under the control of Polymarket, distinguishing it from excluded categories. The timing, established by the April 2026 cutover, clearly precedes the specified cutoff.",
+        "round": 1,
+        "vote": "demonstrated"
+      },
+      {
+        "member_id": "C2",
+        "rationale": "On balance, the record is enough to show Polymarket rolled out pUSD as a fungible ERC-20 on Polygon and described it through Polymarket-controlled docs/help/changelog before the cutoff. The official Contracts page, pUSD page, and dated April 2026 upgrade materials consistently identify pUSD and its address, and the exclusions do not fit. The packet is not ideal, but preponderance is met.",
+        "round": 1,
+        "vote": "demonstrated"
+      },
+      {
+        "member_id": "C3",
+        "rationale": "On this closed record, the proponent has not supplied authenticated Polymarket-controlled communications or verifiable on-chain records establishing identity/control, an official launch communication, and pre-cutoff timing. Narrative technical reports and an asserted contract address, without inspectable captures or timestamps, are insufficient to tip the preponderance standard. Accordingly, the proposition is not demonstrated.",
+        "round": 1,
+        "vote": "not_demonstrated"
+      },
+      {
+        "member_id": "C4",
+        "rationale": "Missing authenticated Polymarket pages and on-chain timestamps. Summaries alone don't meet preponderance.",
+        "round": 1,
+        "vote": "not_demonstrated"
+      },
+      {
+        "member_id": "C5",
+        "rationale": "The plaintiff's technical reports, summarizing multiple consistent official Polymarket sources (docs, changelog, help center) with specific dates and contract information, establish the launch of pUSD as an official fungible token before the deadline. Despite the absence of direct screenshots, the coherence across these sources meets the preponderance of evidence standard. The April 28, 2026 launch date is well within the specified timeframe.",
+        "round": 1,
+        "vote": "demonstrated"
+      }
+    ]
+  },
+  {
+    "attempt": "attempt-2-nine-more-r1",
+    "path": "data/runs/attempt-2-nine-more-r1",
+    "status": "ok",
+    "resolution": "demonstrated",
+    "run_id": "run-1777851300234808000",
+    "votes_for": 5,
+    "votes_against": 0,
+    "vote_split": "5-0",
+    "council": [
+      {
+        "member_id": "C1",
+        "model": "openrouter://anthropic/claude-3.7-sonnet",
+        "persona": "personas/persons/e50e538-0.txt"
+      },
+      {
+        "member_id": "C2",
+        "model": "openrouter://google/gemini-3-flash-preview",
+        "persona": "personas/persons/d715074-7.txt"
+      },
+      {
+        "member_id": "C3",
+        "model": "openrouter://openai/gpt-5.2-chat",
+        "persona": "personas/persons/d715074-2.txt"
+      },
+      {
+        "member_id": "C4",
+        "model": "openrouter://x-ai/grok-4-fast",
+        "persona": "personas/persons/d715074-2.txt"
+      },
+      {
+        "member_id": "C5",
+        "model": "openrouter://anthropic/claude-sonnet-4.5",
+        "persona": "personas/persons/d715074-9.txt"
+      }
+    ],
+    "votes": [
+      {
+        "member_id": "C1",
+        "rationale": "The evidence shows Polymarket launched pUSD, a standard ERC-20 token on Polygon, and officially communicated this through multiple channels before the deadline. The documentation clearly identifies pUSD as Polymarket's official collateral token with a go-live date of April 28, 2026, which satisfies all required elements under the preponderance standard. The token meets all criteria: it's fungible, officially released by Polymarket, publicly documented on their official channels, not in any excluded category, and launched well before the deadline.",
+        "round": 1,
+        "vote": "demonstrated"
+      },
+      {
+        "member_id": "C2",
+        "rationale": "The evidence shows Polymarket launched pUSD as a standard ERC-20 token on April 28, 2026, and officially communicated this through its own documentation and 'single source of truth' contract page. This constitutes an official fungible token launch that meets all proposition requirements before the 2027 deadline. Non-governance use as collateral does not trigger any stated exclusions.",
+        "round": 1,
+        "vote": "demonstrated"
+      },
+      {
+        "member_id": "C3",
+        "rationale": "Polymarket\u2019s own documentation identifies pUSD as a standard ERC-20, lists the contract address as its single source of truth, and states the upgraded system with the new collateral token went live on April 28, 2026\u2014well before the deadline. Those official pages constitute public communication of the token\u2019s release, and no exclusion applies. On balance, it is more likely than not that Polymarket launched and publicly communicated an official fungible token before January 1, 2027.",
+        "round": 1,
+        "vote": "demonstrated"
+      },
+      {
+        "member_id": "C4",
+        "rationale": "The record shows Polymarket officially released pUSD, a standard ERC-20 fungible token on Polygon mainnet, as evidenced by its documentation describing it as shipped and live with CLOB V2 on April 28, 2026, and listing the contract address on the official Contracts page as the single source of truth. These official channels publicly communicated the token's details and production status well before the January 1, 2027 deadline, satisfying the proposition's requirements without fitting any exclusions. While deeper forensics on control would be ideal, the preponderance standard is met by Polymarket's clear attribution and branding of pUSD as its own collateral token.",
+        "round": 1,
+        "vote": "demonstrated"
+      },
+      {
+        "member_id": "C5",
+        "rationale": "Polymarket's own documentation pages identify pUSD as a standard ERC-20 token on Polygon, list the contract address on their official \"single source of truth\" Contracts page, and state the system went live April 28, 2026\u2014well before the deadline. The defense asks for extra proof not required by the proposition's plain text. On this record, it is more likely than not that Polymarket launched an official fungible token and publicly communicated that launch before January 1, 2027.",
+        "round": 1,
+        "vote": "demonstrated"
+      }
+    ]
+  },
+  {
+    "attempt": "attempt-3-nine-more-r2",
+    "path": "data/runs/attempt-3-nine-more-r2",
+    "status": "ok",
+    "resolution": "demonstrated",
+    "run_id": "run-1777851967241181000",
+    "votes_for": 5,
+    "votes_against": 0,
+    "vote_split": "5-0",
+    "council": [
+      {
+        "member_id": "C1",
+        "model": "openrouter://z-ai/glm-4.7-flash",
+        "persona": "personas/persons/d715074-0.txt"
+      },
+      {
+        "member_id": "C2",
+        "model": "openrouter://openai/gpt-5.4-mini",
+        "persona": "personas/persons/c4e1a2b-0.txt"
+      },
+      {
+        "member_id": "C3",
+        "model": "openrouter://meta-llama/llama-4-scout",
+        "persona": "personas/persons/d715074-1.txt"
+      },
+      {
+        "member_id": "C4",
+        "model": "openrouter://anthropic/claude-opus-4.6",
+        "persona": "personas/persons/d715074-6.txt"
+      },
+      {
+        "member_id": "C5",
+        "model": "openrouter://anthropic/claude-opus-4.5",
+        "persona": "personas/persons/c4e1a2b-0.txt"
+      }
+    ],
+    "votes": [
+      {
+        "member_id": "C1",
+        "rationale": "Polymarket\u2019s own changelog and migration guide (April 2026) state that a new collateral token (pUSD, a standard ERC\u201120) was shipped with CLOB V2 and went live on production. Polymarket\u2019s contracts page lists pUSD under collateral and provides its Polygon address, branding it \u201cPolymarket USD.\u201d These are primary, Polymarket\u2011controlled communications confirming an official, fungible token release and its",
+        "round": 1,
+        "vote": "demonstrated"
+      },
+      {
+        "member_id": "C2",
+        "rationale": "Polymarket\u2019s own docs call pUSD the collateral token used for all trading, a standard ERC-20 on Polygon, and its Contracts page lists the pUSD address as the single source of truth. The changelog and migration guide say Polymarket shipped a new collateral token and went live on April 28, 2026, which is well before the cutoff. That is enough to show an official fungible token launch publicly communicated through Polymarket channels.",
+        "round": 1,
+        "vote": "demonstrated"
+      },
+      {
+        "member_id": "C3",
+        "rationale": "Based on the evidence presented, it appears that Polymarket did launch an official fungible token (pUSD) and publicly communicated that launch via its own channels before January 1, 2027 at 00:00 PST. The documentation and communications from Polymarket's official channels support this conclusion, meeting the preponderance of the evidence standard.",
+        "round": 1,
+        "vote": "demonstrated"
+      },
+      {
+        "member_id": "C4",
+        "rationale": "Polymarket's own docs page calls pUSD \"Polymarket USD,\" labels it a standard ERC-20, lists its contract address on their \"single source of truth\" Contracts page, and their changelog says they shipped it live on April 28, 2026\u2014that's a fungible token officially released and publicly communicated by Polymarket before the deadline. The defense's argument that you need cryptographic deployer-wallet proof reads extra requirements into the proposition that aren't there. Plain reading: Polymarket put out a branded fungible token, told the public about it on their own site, and did it months before the cutoff.",
+        "round": 1,
+        "vote": "demonstrated"
+      },
+      {
+        "member_id": "C5",
+        "rationale": "Polymarket's own documentation calls pUSD \"the collateral token,\" lists it on their \"single source of truth\" contracts page, and announces in the changelog that they \"shipped a new collateral token (pUSD)\" with a specific go-live date. When a company brands a token with its name, publishes the contract address on its official registry, and announces the production launch date in writing, that is an official token launch\u2014plain and simple. The defense wants proof Polymarket held the deployment keys, but the proposition asks whether Polymarket officially released and communicated a fungible token, and the written record clearly shows they did.",
+        "round": 1,
+        "vote": "demonstrated"
+      }
+    ]
+  },
+  {
+    "attempt": "attempt-4-nine-more-r3",
+    "path": "data/runs/attempt-4-nine-more-r3",
+    "status": "ok",
+    "resolution": "demonstrated",
+    "run_id": "run-1777852517576650000",
+    "votes_for": 5,
+    "votes_against": 0,
+    "vote_split": "5-0",
+    "council": [
+      {
+        "member_id": "C1",
+        "model": "openrouter://meta-llama/llama-4-scout",
+        "persona": "personas/persons/d715074-1.txt"
+      },
+      {
+        "member_id": "C2",
+        "model": "openrouter://amazon/nova-premier-v1",
+        "persona": "personas/persons/d715074-9.txt"
+      },
+      {
+        "member_id": "C3",
+        "model": "openrouter://openai/gpt-4",
+        "persona": "personas/persons/e50e538-1.txt"
+      },
+      {
+        "member_id": "C4",
+        "model": "openrouter://meta-llama/llama-4-scout",
+        "persona": "personas/persons/d715074-9.txt"
+      },
+      {
+        "member_id": "C5",
+        "model": "openrouter://x-ai/grok-3",
+        "persona": "personas/persons/d715074-5.txt"
+      }
+    ],
+    "votes": [
+      {
+        "member_id": "C1",
+        "rationale": "Based on the evidence presented, it appears that Polymarket did launch an official fungible token (pUSD) and publicly communicated that launch via its official channels before January 1, 2027 at 00:00 PST. The documentation and changelog entries provided support this conclusion.",
+        "round": 1,
+        "vote": "demonstrated"
+      },
+      {
+        "member_id": "C2",
+        "rationale": "Polymarket's own dated documentation shows pUSD launch and communication before deadline.",
+        "round": 1,
+        "vote": "demonstrated"
+      },
+      {
+        "member_id": "C3",
+        "rationale": "The evidence presented confirms the launch of a fungible token, pUSD, officially by Polymarket, and within the stipulated timeframe. The token is described as standard and transferable, and its launch is mentioned in official Polymarket communications.",
+        "round": 1,
+        "vote": "demonstrated"
+      },
+      {
+        "member_id": "C4",
+        "rationale": "Based on the evidence presented, Polymarket launched an official fungible token (pUSD) and publicly communicated the launch via its official channels before January 1, 2027 at 00:00 PST. The documentation and Polygonscan corroboration confirm the launch and communication.",
+        "round": 1,
+        "vote": "demonstrated"
+      },
+      {
+        "member_id": "C5",
+        "rationale": "I vote 'demonstrated' as the plaintiff\u2019s evidence, including Polymarket\u2019s own documentation and contract roster, more likely than not shows pUSD as an official fungible token launched and communicated before the deadline. The defense\u2019s objections on timing and issuer control lack counter evidence and do not outweigh the primary sources under a preponderance standard. The record sufficiently meets all required elements despite minor gaps in archival proof.",
+        "round": 1,
+        "vote": "demonstrated"
+      }
+    ]
+  },
+  {
+    "attempt": "attempt-5-nine-more-r4",
+    "path": "data/runs/attempt-5-nine-more-r4",
+    "status": "failed_before_council",
+    "resolution": null,
+    "vote_split": "none",
+    "error": "acp attorney did not submit a decision"
+  },
+  {
+    "attempt": "attempt-6-nine-more-r5",
+    "path": "data/runs/attempt-6-nine-more-r5",
+    "status": "ok",
+    "resolution": "demonstrated",
+    "run_id": "run-1777853701455981000",
+    "votes_for": 4,
+    "votes_against": 1,
+    "vote_split": "4-1",
+    "council": [
+      {
+        "member_id": "C1",
+        "model": "openrouter://anthropic/claude-opus-4.5",
+        "persona": "personas/persons/d715074-0.txt"
+      },
+      {
+        "member_id": "C2",
+        "model": "openrouter://openai/gpt-5.4",
+        "persona": "personas/persons/d715074-7.txt"
+      },
+      {
+        "member_id": "C3",
+        "model": "openrouter://amazon/nova-premier-v1",
+        "persona": "personas/persons/d715074-1.txt"
+      },
+      {
+        "member_id": "C4",
+        "model": "openrouter://amazon/nova-premier-v1",
+        "persona": "personas/persons/c4e1a2b-0.txt"
+      },
+      {
+        "member_id": "C5",
+        "model": "openrouter://openai/gpt-5.4",
+        "persona": "personas/persons/d715074-2.txt"
+      }
+    ],
+    "votes": [
+      {
+        "member_id": "C1",
+        "rationale": "The record shows Polymarket's own documentation pages explicitly name pUSD (Polymarket USD) as a standard ERC-20 collateral token, map it to a unique Polygon contract address on their \"single source of truth\" Contracts page, and date the go-live to April 28, 2026\u2014well before the January 1, 2027 deadline. The market's exclusions (NFTs, promos, points, collaborations) do not apply, and \"official fungible token\" is not further restricted by the rule text to exclude a platform's collateral token.",
+        "round": 1,
+        "vote": "demonstrated"
+      },
+      {
+        "member_id": "C2",
+        "rationale": "Plaintiff\u2019s record is better aligned on the actual market text: Polymarket\u2019s own docs name pUSD (Polymarket USD), describe it as a standard ERC-20, map it to a unique Polygon contract on the stated \u2018single source of truth\u2019 page, and place go-live in April 2026, well before the cutoff. The defense raises fair weight concerns, but on preponderance I do not see an exclusion that fits pUSD, and I do not read the market text as carving out collateral tokens.",
+        "round": 1,
+        "vote": "demonstrated"
+      },
+      {
+        "member_id": "C3",
+        "rationale": "Polymarket's own docs identify pUSD as official collateral token, map it to unique address, and record April 2026 deployment meeting preponderance standard",
+        "round": 1,
+        "vote": "demonstrated"
+      },
+      {
+        "member_id": "C4",
+        "rationale": "No explicit public token launch announcement; collateral token references don't meet ordinary meaning of 'officially launched' product",
+        "round": 1,
+        "vote": "not_demonstrated"
+      },
+      {
+        "member_id": "C5",
+        "rationale": "On this record, it is more likely than not that Polymarket publicly introduced and went live with pUSD before the deadline through its own docs pages, which describe pUSD as Polymarket USD, a standard ERC-20, and map it to a specific Polygon contract. The defense is right that the packet lacks stronger archival and issuer-linkage proof, but those gaps go to weight rather than defeating the clearer official-channel evidence of a Polymarket-branded fungible token launch.",
+        "round": 1,
+        "vote": "demonstrated"
+      }
+    ]
+  },
+  {
+    "attempt": "attempt-7-nine-more-r6",
+    "path": "data/runs/attempt-7-nine-more-r6",
+    "status": "ok",
+    "resolution": "demonstrated",
+    "run_id": "run-1777854494336131000",
+    "votes_for": 4,
+    "votes_against": 1,
+    "vote_split": "4-1",
+    "council": [
+      {
+        "member_id": "C1",
+        "model": "openrouter://anthropic/claude-opus-4.6",
+        "persona": "personas/persons/e50e538-1.txt"
+      },
+      {
+        "member_id": "C2",
+        "model": "openrouter://x-ai/grok-3",
+        "persona": "personas/persons/d715074-5.txt"
+      },
+      {
+        "member_id": "C3",
+        "model": "openrouter://google/gemini-2.5-flash",
+        "persona": "personas/persons/d715074-8.txt"
+      },
+      {
+        "member_id": "C4",
+        "model": "openrouter://anthropic/claude-sonnet-4.5",
+        "persona": "personas/persons/d715074-9.txt"
+      },
+      {
+        "member_id": "C5",
+        "model": "openrouter://google/gemini-3.1-flash-lite-preview",
+        "persona": "personas/persons/d715074-0.txt"
+      }
+    ],
+    "votes": [
+      {
+        "member_id": "C1",
+        "rationale": "Four consistent, first-party Polymarket documentation pages (Concepts, Contracts, Changelog, Migration Guide) explicitly state Polymarket shipped pUSD\u2014a standard ERC-20 fungible token on Polygon\u2014with dated entries in April 2026, well before the January 1, 2027 cutoff. The Contracts page self-identifies as the \"single source of truth\" and lists pUSD at a specific address corroborated by Polygonscan, satisfying official release and public communication. The defense raises valid points about archival timestamps, but under a preponderance standard, multiple mutually reinforcing official pages with consistent internal dates and no contrary evidence tip the scale past 50%.",
+        "round": 1,
+        "vote": "demonstrated"
+      },
+      {
+        "member_id": "C2",
+        "rationale": "I vote 'not_demonstrated' due to critical gaps in evidence timing and organizational control, as the record lacks immutable timestamps or on-chain linkage to Polymarket, leaving the proposition unproven under preponderance.",
+        "round": 1,
+        "vote": "not_demonstrated"
+      },
+      {
+        "member_id": "C3",
+        "rationale": "The plaintiff provides multiple official Polymarket documents, dated and cross-referenced, that describe pUSD as an official ERC-20 token launched by Polymarket. While the defense raises valid points about absolute immutability, the sheer volume and consistency of first-party evidence, including a specific contract address listed on Polymarket's \"single source of truth\" page, meets the preponderance standard for official communication and release before the deadline. The argument that collateral tokens are not \"launched\" in the ordinary sense is a semantic distinction that the proposition does not support, and the existing evidence clearly indicates an official release and communication by Polymarket itself.",
+        "round": 1,
+        "vote": "demonstrated"
+      },
+      {
+        "member_id": "C4",
+        "rationale": "Four official Polymarket documentation pages consistently describe pUSD as a standard ERC-20 collateral token that Polymarket shipped in April 2026, well before the January 1, 2027 deadline. The Contracts page lists the token address as official Polymarket infrastructure, and the dated Changelog entries provide public communication through official channels. While additional timestamping would strengthen the record, the consistent first-party documentation is enough to tip the scale past 50% under the preponderance standard.",
+        "round": 1,
+        "vote": "demonstrated"
+      },
+      {
+        "member_id": "C5",
+        "rationale": "The combined official Polymarket documentation, including the 'single source of truth' Contracts page, the Changelog, and the V2 migration guide, collectively establish by a preponderance of the evidence that Polymarket launched a fungible ERC-20 token (pUSD) well before the January 1, 2027 deadline. The consistent, mutually reinforcing nature of these official channels provides sufficient attribution and timing evidence under the preponderance standard, even without additional third-party archiving of the webpages during the run.",
+        "round": 1,
+        "vote": "demonstrated"
+      }
+    ]
+  },
+  {
+    "attempt": "attempt-8-nine-more-r7",
+    "path": "data/runs/attempt-8-nine-more-r7",
+    "status": "ok",
+    "resolution": "demonstrated",
+    "run_id": "run-1777855146213363000",
+    "votes_for": 5,
+    "votes_against": 0,
+    "vote_split": "5-0",
+    "council": [
+      {
+        "member_id": "C1",
+        "model": "openrouter://anthropic/claude-opus-4.6",
+        "persona": "personas/persons/e50e538-1.txt"
+      },
+      {
+        "member_id": "C2",
+        "model": "openrouter://meta-llama/llama-4-scout",
+        "persona": "personas/persons/d715074-2.txt"
+      },
+      {
+        "member_id": "C3",
+        "model": "openrouter://anthropic/claude-sonnet-4.6",
+        "persona": "personas/persons/c4e1a2b-0.txt"
+      },
+      {
+        "member_id": "C4",
+        "model": "openrouter://amazon/nova-premier-v1",
+        "persona": "personas/persons/e50e538-0.txt"
+      },
+      {
+        "member_id": "C5",
+        "model": "openrouter://anthropic/claude-opus-4.5",
+        "persona": "personas/persons/d715074-1.txt"
+      }
+    ],
+    "votes": [
+      {
+        "member_id": "C1",
+        "rationale": "Polymarket's own official docs (changelog, contracts page, migration guide) explicitly announce and attribute pUSD as a new ERC-20 collateral token on Polygon mainnet, which satisfies the \"official fungible token publicly communicated through official channels\" requirement under preponderance. A transferable, USDC-backed ERC-20 used for all trading is not a points system or NFT, so no exclusion applies. The defense raises valid authentication concerns but offers no contrary dating evidence, and the consistent alignment across multiple official pages tips the scale past 50%.",
+        "round": 1,
+        "vote": "demonstrated"
+      },
+      {
+        "member_id": "C2",
+        "rationale": "The evidence presented demonstrates that Polymarket launched an official fungible token, pUSD, before January 1, 2027 at 00:00 PST, and publicly communicated that launch through its official channels.",
+        "round": 1,
+        "vote": "demonstrated"
+      },
+      {
+        "member_id": "C3",
+        "rationale": "Polymarket's own changelog, migration guide, and contracts registry \u2014 its self-described \"single source of truth\" \u2014 consistently identify pUSD as a named, transferable ERC-20 on Polygon mainnet, announced April 17 and live April 28, 2026, well before the cutoff; that is the kind of company-authored business record I'd rely on to prove attribution in any real dispute. The defense's custody-proof and authentication objections raise valid concerns but don't clear the bar to defeat a preponderance showing when multiple consistent, official Polymarket pages align with corroborating Polygonscan data and no contrary evidence is offered. The exclusions don't apply: pUSD is an on-chain, transferable ERC-20 backed by USDC used as trading collateral \u2014 not an NFT, not a loyalty point, and not a co-branded token.",
+        "round": 1,
+        "vote": "demonstrated"
+      },
+      {
+        "member_id": "C4",
+        "rationale": "Polymarket\u2019s official docs identify pUSD as their collateral token on Polygon\u2019s mainnet and announced it in the changelog in Apr 2026. That meets the burden.",
+        "round": 1,
+        "vote": "demonstrated"
+      },
+      {
+        "member_id": "C5",
+        "rationale": "Polymarket's own documentation\u2014the Contracts page, changelog, and migration guide\u2014lists pUSD as an ERC-20 token on Polygon mainnet, announces its production launch on April 28, 2026, and attributes it to Polymarket. That is an official fungible token publicly communicated through official channels before the cutoff, and nothing in the record shows it falls under the stated exclusions.",
+        "round": 1,
+        "vote": "demonstrated"
+      }
+    ]
+  },
+  {
+    "attempt": "attempt-9-nine-more-r8",
+    "path": "data/runs/attempt-9-nine-more-r8",
+    "status": "ok",
+    "resolution": "demonstrated",
+    "run_id": "run-1777855666272764000",
+    "votes_for": 3,
+    "votes_against": 2,
+    "vote_split": "3-2",
+    "council": [
+      {
+        "member_id": "C1",
+        "model": "openrouter://openai/gpt-4o",
+        "persona": "personas/persons/d715074-4.txt"
+      },
+      {
+        "member_id": "C2",
+        "model": "openrouter://z-ai/glm-4.7-flash",
+        "persona": "personas/persons/d715074-0.txt"
+      },
+      {
+        "member_id": "C3",
+        "model": "openrouter://google/gemini-2.5-flash",
+        "persona": "personas/persons/d715074-0.txt"
+      },
+      {
+        "member_id": "C4",
+        "model": "openrouter://anthropic/claude-sonnet-4.6",
+        "persona": "personas/persons/c4e1a2b-0.txt"
+      },
+      {
+        "member_id": "C5",
+        "model": "openrouter://meta-llama/llama-4-scout",
+        "persona": "personas/persons/d715074-0.txt"
+      }
+    ],
+    "votes": [
+      {
+        "member_id": "C1",
+        "rationale": "The evidence presented shows that Polymarket introduced pUSD and communicated its deployment in official channels as a collateral token. However, the documentation primarily treats pUSD as part of an infrastructure update, not a standalone platform token launch. According to the proposition, introducing backend functionalities in this manner does not equate to a new official fungible token launch. Therefore, the claim that Polymarket launched an official fungible token, as defined, is not proven by the preponderance of the evidence.",
+        "round": 1,
+        "vote": "not_demonstrated"
+      },
+      {
+        "member_id": "C2",
+        "rationale": "Polymarket's own Contracts page lists pUSD as an ERC\u201120 collateral token, its changelog and migration pages show a coordinated April\u202f28,\u202f2026 go\u2011live of the pUSD collateral module (~04:00\u202fPT), and pUSD is described as a transferable, platform\u2011wide fungible asset. Those official communications and on\u2011chain attribution meet the proposition\u2019s terms, making it more likely than not that Polymarket launched and publicly announced an official fungible token before the January\u202f1,\u202f2027 cutoff.",
+        "round": 1,
+        "vote": "demonstrated"
+      },
+      {
+        "member_id": "C3",
+        "rationale": "Polymarket's official documentation identifies pUSD as a fungible ERC-20 collateral token, explicitly lists its contract address, and communicates its live deployment before the deadline. While part of a larger system upgrade, this constitutes the launch and public communication of an official fungible token under a preponderance standard. The exclusions for NFTs, promotions, and points do not apply.",
+        "round": 1,
+        "vote": "demonstrated"
+      },
+      {
+        "member_id": "C4",
+        "rationale": "Polymarket's own official docs \u2014 the Contracts page, Changelog, and V2 Migration guide \u2014 put it in writing that they shipped pUSD, a standard ERC-20, as part of their April 28, 2026 production rollout, well before the January 1, 2027 cutoff. When a business makes a written, on-domain statement identifying their own token by name, address, and go-live date, I treat that as proof of what they did \u2014 not ambiguous plumbing. The defense's argument that a collateral wrapper isn't a \"launched token\" adds requirements the proposition simply does not contain, and I'm not going to reward that kind of hairsplitting.",
+        "round": 1,
+        "vote": "demonstrated"
+      },
+      {
+        "member_id": "C5",
+        "rationale": "The proposition is not proven as the evidence provided does not clearly show that Polymarket launched and publicly communicated the launch of an official fungible token.",
+        "round": 1,
+        "vote": "not_demonstrated"
+      }
+    ]
+  },
+  {
+    "attempt": "attempt-10-nine-more-r9",
+    "path": "data/runs/attempt-10-nine-more-r9",
+    "status": "ok",
+    "resolution": "demonstrated",
+    "run_id": "run-1777856173517562000",
+    "votes_for": 5,
+    "votes_against": 0,
+    "vote_split": "5-0",
+    "council": [
+      {
+        "member_id": "C1",
+        "model": "openrouter://anthropic/claude-sonnet-4.6",
+        "persona": "personas/persons/d715074-8.txt"
+      },
+      {
+        "member_id": "C2",
+        "model": "openrouter://meta-llama/llama-4-scout",
+        "persona": "personas/persons/d715074-9.txt"
+      },
+      {
+        "member_id": "C3",
+        "model": "openrouter://anthropic/claude-opus-4.5",
+        "persona": "personas/persons/d715074-0.txt"
+      },
+      {
+        "member_id": "C4",
+        "model": "openrouter://anthropic/claude-opus-4.6",
+        "persona": "personas/persons/e50e538-1.txt"
+      },
+      {
+        "member_id": "C5",
+        "model": "openrouter://meta-llama/llama-4-scout",
+        "persona": "personas/persons/d715074-2.txt"
+      }
+    ],
+    "votes": [
+      {
+        "member_id": "C1",
+        "rationale": "Multiple mutually corroborating first-party Polymarket documentation pages (concept page, Contracts page, Changelog, V2 migration guide) consistently identify pUSD as a standard ERC-20 fungible token officially launched by Polymarket in April 2026, far ahead of the January 1, 2027 deadline. Under a preponderance standard, Polymarket's own designation of its Contracts page as the \"single source of truth\" listing pUSD sufficiently establishes official release and public communication without requiring additional cryptographic deployer attribution beyond what the market text demands. None of the enumerated exclusions \u2014 NFT, promotional, points, or partner-led \u2014 apply to this on-chain ERC-20 collateral token documented and branded entirely by Polymarket.",
+        "round": 1,
+        "vote": "demonstrated"
+      },
+      {
+        "member_id": "C2",
+        "rationale": "The evidence shows that Polymarket launched pUSD as a standard ERC-20 collateral token on Polygon, and announced it on their official documentation pages in April 2026, well before the deadline of January 1, 2027 at 00:00 PST.",
+        "round": 1,
+        "vote": "demonstrated"
+      },
+      {
+        "member_id": "C3",
+        "rationale": "Polymarket's official docs describe pUSD as their ERC-20 collateral token, list it on their authoritative Contracts page, and the changelog timestamps the April 2026 launch well before the January 2027 deadline. The evidence is first-party, mutually reinforcing across multiple official pages, and pUSD clearly falls outside the exclusions (not an NFT, promo, points, or partner launch).",
+        "round": 1,
+        "vote": "demonstrated"
+      },
+      {
+        "member_id": "C4",
+        "rationale": "Polymarket's own official docs\u2014concept page, contracts page, changelog, and migration guide\u2014consistently describe pUSD as a new ERC-20 collateral token that Polymarket shipped in April 2026, well before the January 2027 deadline. Under a preponderance standard, four cross-referencing first-party pages naming and listing the token are enough, especially with no contrary evidence offered. pUSD is plainly fungible and does not fall into any of the excluded categories (NFT, promo, points, or partner launch).",
+        "round": 1,
+        "vote": "demonstrated"
+      },
+      {
+        "member_id": "C5",
+        "rationale": "The evidence shows that Polymarket launched pUSD as a standard ERC-20 collateral token on Polygon, and announced it on their official documentation pages in April 2026, well before the deadline of January 1, 2027 at 00:00 PST. The documentation, including the changelog and migration guide, clearly describe pUSD as a new collateral token used for all trading on Polymarket.",
+        "round": 1,
+        "vote": "demonstrated"
+      }
+    ]
+  }
+]
