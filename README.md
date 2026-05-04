@@ -40,19 +40,6 @@ The recurring majority theory was that pUSD, Polymarket USD, qualified under the
 
 The recurring dissent theory was semantic and evidentiary. Dissenting council members argued that pUSD may be technical collateral infrastructure rather than an ordinary public token launch, or that the record would be stronger with immutable page timestamps, archive captures, and on-chain control evidence.
 
-## Repository layout
-
-- [`etc/case-packet/`](etc/case-packet/) — the arbitration input packet.
-- [`etc/source-captures/`](etc/source-captures/) — official Polymarket and Polygonscan source captures preserved after the open-record work.
-- [`runs/`](runs/) — the ten run directories, `run-01` through `run-10`.
-- [`etc/orchestration/`](etc/orchestration/) — logs, summaries, and manifests from the run orchestration.
-- [`etc/external-pages/`](etc/external-pages/) — captured copies of the Trueo market page and AgentCourt homepage.
-- [`etc/not-counted-diagnostics/`](etc/not-counted-diagnostics/) — diagnostic artifacts that are not part of the ten runs.
-- [`docs/runs.md`](docs/runs.md) — run inventory and aggregate results.
-- [`docs/runs.json`](docs/runs.json) — machine-readable run inventory.
-- [`docs/market-rule.md`](docs/market-rule.md) — market rule source and extracted rule text.
-- [`docs/agentcourt-reference.md`](docs/agentcourt-reference.md) — short AgentCourt reference note.
-
 ## Additional details
 
 The runs were open-record and search-enabled. Attorneys could discover public evidence during the arbitration.
