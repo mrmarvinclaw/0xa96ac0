@@ -12,13 +12,12 @@ The market asked whether Polymarket launched an official token before January 1,
 
 ## Contents
 
-This repository contains the artifacts for ten intended AgentCourt arbitration attempts:
+This repository contains the artifacts for ten AgentCourt arbitration runs:
 
-- one initial open-record, search-enabled run;
-- nine additional sequential open-record, search-enabled attempts;
 - the case packet;
 - official-source captures preserved during the work;
-- run outputs, transcripts, council votes, logs, summaries, and batch records.
+- run outputs, transcripts, council votes, logs, summaries, and orchestration records;
+- captured copies of the Trueo market page and the AgentCourt homepage.
 
 The experiment used AgentCourt's Agent Arbitration workflow. See <https://agentcourt.ai/>. AgentCourt describes a verifiable adjudication architecture using a Lean procedural engine, attorney-agent teams connected through the Agent Client Protocol, candidate pools of AI jurors, and support for execution in attestable instances and Trusted Execution Environments. In that model, an arbitration can be run with evidence about the code and environment that executed the procedure, rather than relying only on a conventional operator report.
 
@@ -30,9 +29,9 @@ The proposition used in the arbitration was:
 
 ## Result summary
 
-Ten intended attempts are included here.
+Ten runs are included here.
 
-- Completed attempts: 9.
+- Completed runs: 9.
 - Failed before council: 1.
 - Completed resolutions: 9 `demonstrated`, 0 `not_demonstrated`.
 - Completed council votes: 39 `demonstrated`, 6 `not_demonstrated`.
@@ -44,13 +43,13 @@ The recurring dissent theory was semantic and evidentiary. Dissenting council me
 ## Repository layout
 
 - `data/case-packet/` — the arbitration input packet.
-- `data/source-captures/` — official Polymarket and Polygonscan source captures preserved after the open-record run.
-- `data/runs/` — the ten intended attempt directories, including the one failed-before-council attempt.
-- `data/batches/` — batch logs, summaries, and manifests from the run orchestration.
+- `data/source-captures/` — official Polymarket and Polygonscan source captures preserved after the open-record work.
+- `data/runs/` — the ten run directories, `run-01` through `run-10`.
+- `data/orchestration/` — logs, summaries, and manifests from the run orchestration.
 - `data/external-pages/` — captured copies of the Trueo market page and AgentCourt homepage.
-- `data/not-counted-diagnostics/` — diagnostic artifacts that are not part of the ten intended attempts.
-- `docs/attempts.md` — attempt inventory and aggregate results.
-- `docs/attempts.json` — machine-readable attempt inventory.
+- `data/not-counted-diagnostics/` — diagnostic artifacts that are not part of the ten runs.
+- `docs/runs.md` — run inventory and aggregate results.
+- `docs/runs.json` — machine-readable run inventory.
 - `docs/market-rule.md` — market rule source and extracted rule text.
 - `docs/agentcourt-reference.md` — short AgentCourt reference note.
 
@@ -58,8 +57,8 @@ The recurring dissent theory was semantic and evidentiary. Dissenting council me
 
 The runs were open-record and search-enabled. Attorneys could discover public evidence during the arbitration.
 
-The first run began from a lean case packet. During open-record runs, attorneys found official pUSD sources through search. Afterward, those public sources were copied into the case packet as preserved evidence captures so the repository would contain the evidence relied on by the runs and would not depend only on live web pages. The completed run outputs were not regenerated or altered on that basis.
+The experiment began from a lean case packet. During open-record work, attorneys found official pUSD sources through search. Afterward, those public sources were copied into the case packet as preserved evidence captures so the repository would contain the evidence relied on by the runs and would not depend only on live web pages. The completed run outputs were not regenerated or altered on that basis.
 
-One of the nine additional attempts failed before council voting with `acp attorney did not submit a decision`. It is included because it was one of the ten intended attempts.
+One run failed before council voting with `acp attorney did not submit a decision`. It is included because it was one of the ten runs.
 
-The batch manifest for the nine additional attempts contains `parse_error` fields caused by a wrapper parsing bug. The result summary in this README and in `docs/attempts.md` was computed from the actual `run.json` and `state.json` artifacts, not from those manifest fields.
+The orchestration manifest contains `parse_error` fields caused by a wrapper parsing bug. The result summary in this README and in `docs/runs.md` was computed from the actual `run.json` and `state.json` artifacts, not from those manifest fields.
