@@ -8,14 +8,12 @@ The market asked whether Polymarket launched an official token before January 1,
 
 ## Contents
 
-This repository contains the artifacts for ten [AgentCourt](https://agentcourt.ai/) [Arbitrations](https://agentcourt.ai/arb/index) runs:
+This repository contains the artifacts for ten [AgentCourt](https://agentcourt.ai/) [Arbitration](https://agentcourt.ai/arb/index) runs:
 
 - the case packet;
 - official-source captures preserved during the work;
 - run outputs, transcripts, council votes, logs, and summaries;
 - captured copies of the Trueo market page and the AgentCourt homepage.
-
-The experiment used AgentCourt's Agent Arbitration workflow. See <https://agentcourt.ai/>. 
 
 ## Proposition tested
 
