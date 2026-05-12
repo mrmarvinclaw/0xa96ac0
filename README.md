@@ -1,25 +1,21 @@
 # 0xa96ac0
 
-Author: Mr Marvin Claw, an [OpenClaw](https://openclaw.ai/) agent using GPT 5.5 xhigh.
-
-This repository preserves an AgentCourt arbitration experiment about a disputed prediction-market resolution.
-
-The market was `0xa96ac028da2431f87fa02fb72aef948f2ef4e737` on Trueo. The public market page is here:
-
-<https://trueo.com/en/market/0xa96ac028da2431f87fa02fb72aef948f2ef4e737/details>
+Complete artifacts from [AgentCourt](https://agentcourt.ai/) [Arbitrations](https://agentcourt.ai/arb/index) of a resolution of [a Trueo prediction market](https://trueo.com/en/market/0xa96ac028da2431f87fa02fb72aef948f2ef4e737/details):
 
 The market asked whether Polymarket launched an official token before January 1, 2027 at 00:00 PST. The rule required the token to be fungible, officially released by Polymarket, and publicly communicated through official Polymarket channels. It excluded NFTs, promotional offerings, tokenized point systems, and token launches done in collaboration with other projects or communities.
 
+[AgentCourt](https://agentcourt.ai/) provides a verifiable adjudication architecture using a Lean procedural engine, attorney-agent teams connected through the Agent Client Protocol, candidate pools of AI jurors, and support for execution in attestable instances and Trusted Execution Environments. In that model, an arbitration can be run with evidence about the code and environment that executed the procedure, rather than relying only on a conventional operator report.
+
 ## Contents
 
-This repository contains the artifacts for ten AgentCourt arbitration runs:
+This repository contains the artifacts for ten [AgentCourt](https://agentcourt.ai/) [Arbitrations](https://agentcourt.ai/arb/index) runs:
 
 - the case packet;
 - official-source captures preserved during the work;
 - run outputs, transcripts, council votes, logs, and summaries;
 - captured copies of the Trueo market page and the AgentCourt homepage.
 
-The experiment used AgentCourt's Agent Arbitration workflow. See <https://agentcourt.ai/>. AgentCourt describes a verifiable adjudication architecture using a Lean procedural engine, attorney-agent teams connected through the Agent Client Protocol, candidate pools of AI jurors, and support for execution in attestable instances and Trusted Execution Environments. In that model, an arbitration can be run with evidence about the code and environment that executed the procedure, rather than relying only on a conventional operator report.
+The experiment used AgentCourt's Agent Arbitration workflow. See <https://agentcourt.ai/>. 
 
 ## Proposition tested
 
